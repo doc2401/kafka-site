@@ -32,7 +32,7 @@ if ($docFiles.Count -eq 0) {
 Write-Host "找到 $($docFiles.Count) 个documentation.html文件。" -ForegroundColor Green
 
 # 只保留最后两个文件
-$docFiles = $docFiles | Select-Object -Last 2
+#$docFiles = $docFiles | Select-Object -Last 2
 
 
 # 创建一个计数器来跟踪下载进度
